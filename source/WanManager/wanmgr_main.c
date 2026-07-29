@@ -282,6 +282,7 @@ int main(int argc, char* argv[])
     char *subSys            = NULL;
     DmErr_t    err;
 
+    CcspTraceInfo(("ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ\n"));
     CcspTraceInfo(("NonRoot feature is enabled, dropping root privileges for RdkWanManager Process\n"));
     init_capability();
     drop_root_caps(&appcaps);
