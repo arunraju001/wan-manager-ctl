@@ -347,7 +347,7 @@ int main(int argc, char* argv[])
          //WOW factor-start
     CcspTraceError(("ZARUNLOG: TraceZZZZZZZZZZZZZZZZZZ: %s %d \n", __FUNCTION__, __LINE__));
     CcspTraceError(("ZARUNLOG: TraceLOGZZZZZZZZZZZZZZZ: %s %d \n", __FUNCTION__, __LINE__));
-#if 0
+#if 1
     CcspTraceError(("ZARUNLOG: TraceLOG securSYS default dev eth0: %s %d \n", __FUNCTION__, __LINE__));
      v_secure_system("ip -6 route del default dev eth0");
     CcspTraceError(("ZARUNLOG: TraceLOG securSYS scope flush eth0: %s %d \n", __FUNCTION__, __LINE__));
